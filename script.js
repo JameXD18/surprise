@@ -90,9 +90,9 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   
     //yes page
     valentineQuestion.innerHTML = `
-      <img src="./images/image7.gif" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
+      <img src="./images/ducks.jpg" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
       Congratulations!!<br>
-      <span style="font-size: 20px; color: #bd1e59;">You have scored a baddie for Valentine's Day! <3</span>
+      <span style="font-size: 20px; color: #bd1e59;">You have secured a Smurf for Valentine's Dayyy! <3</span>
     `;
     valentineQuestion.style.textAlign = "center"; 
   
@@ -154,4 +154,5 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   
     move();
   }
+
   
