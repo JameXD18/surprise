@@ -101,8 +101,8 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     bounceImage.src = "./images/baddie.jpg";
     bounceImage.alt = "Baddie";
     bounceImage.style.position = "absolute";
-    bounceImage.style.width = "300px";
-    bounceImage.style.height = "325px";
+    bounceImage.style.width = "100px";
+    bounceImage.style.height = "100px";
     bounceImage.style.borderRadius = "50%";
     document.body.appendChild(bounceImage);
   
@@ -156,3 +156,4 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   }
 
   
+
