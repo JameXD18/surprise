@@ -106,7 +106,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     bounceImage.style.borderRadius = "50%";
     document.body.appendChild(bounceImage);
   
-    startBouncing(bounceImage);
+    //startBouncing(bounceImage);
   
     confetti({
       particleCount: 150,
@@ -156,4 +156,5 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   }
 
   
+
 
